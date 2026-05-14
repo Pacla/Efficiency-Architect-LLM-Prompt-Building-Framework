@@ -1,18 +1,1 @@
-#I will shortly explain in this file why it really REALLY matters which LLM you choose when doing those things.
-#All the information which I'll talk about in here I've mainly read in Singapore's publicly published prompt-engineering-playbook.
 
-#First things first. TOKEN CAPACITY.
-#DO NOT OVERLOOK THIS ASPECT WHEN THINKING ABOUT USING AI PROMPTS FOR CERTAIN DEPARTMENTS.
-#Tokens are basically the processing currency that LLMs, or in simple terms, AIs use to process your prompt in a conversation.
-#"As a rough guide from OpenAI’s website, 100 tokens are roughly equivalent to 75 words..." the playbook states.
-#You could use the enterprise version of a LLM but always look up the token cap on that specific version.
-#Some may be weaker and others may be overkill for your work.
-#For example why would you use a really powerfull AI that can easily handle 1 million words in a conversation for routine tasks?
-#On another hand why would you use a really weak AI for extremly demanding tasks such as coding or project management?
-#Rely on the Goldfish effect which is influenced by Tokens.
-#The Goldfish effect makes the AI forget the beginning of the conversation fast even when using CO-STAR & JSON prompting.
-#You do not want to build a CSS file for your site to get even with the GANTT chart your manager did and with which you've fallen behind with
-#if your LLM doesn't remember what it generated earlier in the conversation.
-#If you find yourself in a situation in which you have fallen behind with a task.
-#DO NOT BY ANY MEANS TRY TO SOLVE IT WITH AN UNDERPOWERED LLM
-#It will only make things worse.
