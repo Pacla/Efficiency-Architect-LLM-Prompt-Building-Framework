@@ -1,1 +1,50 @@
+#This has to be the easiest one to start with aside CO-STAR & JSON based prompts...
 
+#So what do I mean to do in this file?
+#It's quite simple really. HR already spends little to no time checking candidate CVs.
+#There is a risk though. Because the opportunity cost for this revolves around quality vs efficiency.
+#On one hand HR can keep up the efficiency and let AI analyse and summarise candidate CVs for them
+#or they can opt for quality in which case they are actually actively looking into CVs for potential candidate yield.
+#There is a way to balance these 2 however, with little to no risk.
+#This is where Prompt Engineering becomes the main topic of this whole process.
+#It's way easier to have a HR team that can work with LLMs because this way we can eliminate the opportunity cost entirely.
+#This should serve as an example of how an HR team can implement this within their department.
+
+#The comparison bases
+
+{
+  "student_eligibility_criterias": {
+  "isEmployed": false,
+  "LookingForInternship": true,
+  "isStudent": true,
+  "city": "Same as HQ or close"
+  }
+}
+
+#Above you can see a simple student eligibility criteria for an internship
+#As you can see there are certain namespaces which define the criteria for the student(s)
+#isEmployed for example, will tell the AI that you are mainly looking for students which don't already have job
+#This filters out a criteria set by HR
+#Lets now see below how the prompt would look like for an LLM to work out the filtering using CO-STAR and JSON
+
+PROMPT:
+{
+  "context": "Student CV filtering based on JSON document criteria",
+  "objective": "Determine which of the attatched CVs is eligible for an internship",
+  "style": "Human Resources",
+  "input_data": {
+    "primary": "Student_criteria.json",
+    "secondary": [{"CV1.pdf", "CV2.pdf, ... , "CVn.pdf"]
+  },
+  "logic_rules": {
+    "match_on": "student_eligibility_criterias",
+    "if_mismatch": "Flag in red text",
+    "writeVerdict": "Student eligibility"
+  },
+  "output_format": "text"
+}
+
+#I highly recommend Gemini for this by the way. 
+#Gemini is able to work with Google Workspace and will analyse specified document if prompt is adapted.
+#For now I'll just leave the example prompt as it is.
+#I will attatch results based on the example in the dedicated folder for this specific process.
