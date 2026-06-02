@@ -1,6 +1,22 @@
-#So as of the 29th of May 2026. It has been documented that a company spent over 500 million USD while using Claude API
+#So as of the 29th of May 2026. It has been documented that a company spent over 500 million USD while using Claude API.
 #First I would like to mention that this is by no means a side taking statement on my end about Anthropic.
 #Second I would like to briefly talk about the topic of "AI responsability" in this document.
 #I would also like to include Cloud services on this end because prices have been going through the roof for enterprises with these services aswell.
 #PLEASE make yourself a proper process diagram when using services like those.
 #Management should be trained or briefed on this manner as AI is a really young service.
+#Documented news say Employees used AI for small tasks which led to this issues.
+#KEEP IN MIND THAT agentic AI tools can consume up to 1000x more tokens than basic chat queries.
+#Hence the matter of "Tokenmaxxing".
+#Tokenmaxxing by default is the same as you using an entire data center to look up the time.
+#By extension I belive this is an error in Governance factors that were not taken into consideration by Management.
+#I should know since Im actively pursuing this degree.
+
+#WHAT ENTERPRISES SHOULD DO STEP BY STEP
+# 1. ALWAYS read TOS of APIs and or of AI services.
+# 2. ALWAYS check contract/bureaucracy before setting a goal of AI usage.
+# 3. Elaborate a strategy for the services.
+# 4. Have Management make a process diagram for AI related work/tasks.
+# 5. HIGHLIGHT the costs implied to the departments that use AI.
+# 6. Counceling the aknowledgement.
+
+#I have attatched a diagram example in PDF format in the same REPO.
