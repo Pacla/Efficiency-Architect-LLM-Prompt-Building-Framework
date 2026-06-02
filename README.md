@@ -9,4 +9,4 @@ FILE PROJECTS AND CONTENTS:
 - Delegation Framework
 - HR efficiency and quality for candidate validation
 - A warning letter to enterprises on the topic of AI
-- ENTERPRISE AI USAGE STRATEGY FOR BUDGET LOSS RISK MANAGEMENT
+- ENTERPRISE AI USAGE STRATEGY FOR BUDGET LOSS RISK MANAGEMENT.pdf
